@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E2AD7F;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrap {
+    background-color: rgb(245,245,220);
+    border: 5px dashed black;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 5px dashed black;
+    font-style: italic;
+    width: 100%;
+}
+
+p {
+    text-align: left;
+    margin: 30px auto 15px;
+padding: 0 20px;
+}
+
+li {
+    list-style: none;
+    font-style: italic;
+    line-height: 25px;
+}
+
+li::first-letter {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+p.copyright {
+    text-align: center;
+}
