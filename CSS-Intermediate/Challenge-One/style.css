@@ -1,28 +1,15 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 body {
   background-color: rgb(54, 67, 113);
   padding: 0 40px;
-  
-  height: 100vh;
-}
-
-
-#wrap {
-    height: 80vh;
 }
 
 #nav {
   background-color: rgb(176, 207, 255);
-  width: 20%;
   float: left;
   height: 80vh;
-margin-right: 15px;
-  
+  margin-right: 15px;
+  width: auto;
+  padding: 0 30px;
 }
 
 #content {
@@ -30,26 +17,25 @@ margin-right: 15px;
   padding: 0 20px;
   height: 80vh;
   text-align: center;
-
 }
 
 #content p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 #content li {
-    list-style: none;
+  list-style: none;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
-h1, h2 {
-    padding: 20px 0;
+h1,
+h2 {
+  padding: 20px 0;
 }
 
 .copyright {
-    text-align: right;
-    margin: 10px;
+  text-align: right;
+  margin: 10px;
 }
-
