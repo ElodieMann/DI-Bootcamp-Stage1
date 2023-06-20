@@ -1,0 +1,36 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.cont {
+    display: inline-block;
+    width: 32%;
+    border: 2px solid black;
+    height: 33%;
+    display: inline-block;
+}
+
+.div1 {
+    background-color: green;
+    width: 97%;
+    height: 33%;
+    margin-bottom: 5px;
+}
+
+.div5 {
+    background-color: orange;
+}
+.div6 {
+    background-color: red;
+}
+.div7 {
+    background-color: blue;
+}
