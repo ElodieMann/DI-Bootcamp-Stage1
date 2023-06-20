@@ -1,36 +1,39 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    
+  width: 100vw;
+  height: 100vh;
 }
 
-
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+}
+
+.div1, .div2, .div3, .div4 {
+  border: 2px solid black;
 }
 
 .cont {
-    display: inline-block;
-    width: 32%;
-    border: 2px solid black;
-    height: 33%;
-    display: inline-block;
+  display: inline-block;
+  width: 32%;
+
+  height: 33%;
+  display: inline-block;
 }
 
 .div1 {
-    background-color: green;
-    width: 97%;
-    height: 33%;
-    margin-bottom: 5px;
+  background-color: green;
+  width: 97%;
+  height: 33%;
+  margin-bottom: 5px;
 }
 
-.div5 {
-    background-color: orange;
+.div2 {
+  background-color: orange;
 }
-.div6 {
-    background-color: red;
+.div3 {
+  background-color: red;
 }
-.div7 {
-    background-color: blue;
+.div4 {
+  background-color: blue;
 }
