@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5e626730;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ------- nav ----------- */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  padding: 0 40px;
+  background-color: #5e6267;
+  color: white;
+  z-index: 2;
+  top: 0;
+}
+
+#img-nav {
+  border-radius: 50%;
+  width: 30%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* ------------- header ------------- */
+
+header {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-header {
+  background: url("./Theodor-Herzl%20%281%29.jpg") no-repeat center/cover;
+  width: 45%;
+  border-radius: 0 0 30% 0%;
+}
+
+.head {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#intro {
+  margin-top: 50px;
+  font-size: 0.8rem;
+
+  padding: 0% 10%;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #5e6267;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* --------- main ----------*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin: 80px 40px;
+}
+
+#early,
+#zionism,
+#death {
+  padding-top: 80px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 300px;
+  margin: 35px;
+}
+
+.figure1 {
+  float: left;
+}
+.figure2 {
+  float: right;
+}
+
+img {
+  max-width: 300px;
+  max-height: 250px;
+}
+
+figcaption {
+  background-color: #5e6267;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+hr {
+  width: 70%;
+  margin: 60px auto;
+  height: 3px;
+}
+/* --------- spotlight ----------*/
+
+section {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+  padding: 20px;
+}
+
+.spotlight {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid white;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 5px 4px 5px #5e6267;
+}
+
+.spotlight:hover {
+  transform: scale(1.1);
+  transition: 0.8s ease;
+  z-index: 1;
+}
+
+.spot,
+.date {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 15px solid black;
+}
+
+/* ----------- footer ------------ */
+
+footer {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ---- media ------------ */
+
+@media screen and (max-width: 768px) {
+
+    #img-nav {
+        width: 50%;
+    }
+
+  ul {
+    font-size: 0.7rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    height: 70vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .figure1,
+  .figure2 {
+    float: none;
+    margin: 20px auto;
+  }
+
+  .spotlight {
+    width: 50%;
+  }
+}
